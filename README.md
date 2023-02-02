@@ -64,7 +64,7 @@
   sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/$Name_config_file/config/config.toml
 
   ```
-  ### We clear the database 
+  ### Reset the database 
   ```
   sudo systemctl stop canined && 
   canined tendermint unsafe-reset-all --home $HOME/$Name_config_file --keep-addr-book
