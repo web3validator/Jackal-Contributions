@@ -1,1 +1,1 @@
-[[web3validator.info/contributions/jackal]](https://web3validator.info/contributions/jackal/)
+[web3validator.info/contributions/jackal](https://web3validator.info/contributions/jackal/)
