@@ -4,9 +4,9 @@
 ![image](https://user-images.githubusercontent.com/102728347/216285301-313defe4-12b0-4135-ae60-9d24618d6651.png)
 
 
-* [Install node](https://github.com/MaxMavaIll/Guide_web/blob/main/README.md#install-binary)
+* [Install node](https://github.com/web3validator/Jackal-Contributions/blob/main/README.md#install-binary
 <!-- * [Create RPC]() -->
-* [State sync](https://github.com/MaxMavaIll/Guide_web/blob/main/README.md#state-sync)
+* [State sync](https://github.com/web3validator/Jackal-Contributions/blob/main/README.md#state-sync)
 
 <details open>
   <summary>Install node</summary>
