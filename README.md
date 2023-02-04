@@ -25,7 +25,7 @@
   wget http://jackal.web3validator.info/genesis.json -P $HOME/.canine/config
   
   ```
-  ### Adderbook
+  ### Addrbook
   ```
   wget http://jackal.web3validator.info/addrbook.json -P $HOME/.canine/config
   
