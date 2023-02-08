@@ -21,17 +21,17 @@
   ```
   ### Genesis
   ```
-  wget http://jackal.web3validator.info/genesis.json -P $HOME/.canine/config
+  wget http://jackal.web3validator.info:5000/genesis.json -P $HOME/.canine/config
   
   ```
   ### Addrbook
   ```
-  wget http://jackal.web3validator.info/addrbook.json -P $HOME/.canine/config
+  wget http://jackal.web3validator.info:5000/addrbook.json -P $HOME/.canine/config
   
   ```
   ### You need to install `canined.service`
   ```
-  wget http://jackal.web3validator.info/canined.service -P /etc/systemd/system/
+  wget http://jackal.web3validator.info:5000/canined.service -P /etc/systemd/system/
   
   ```
   If you want to quickly catch up with the network, use this [State Sync](https://github.com/MaxMavaIll/Guide_web/blob/main/README.md#state-sync)
