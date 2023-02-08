@@ -60,13 +60,13 @@
   s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
   s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
   s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/$Name_config_file/config/config.toml
-  sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/$Name_config_file/config/config.toml
+  sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.canine/config/config.toml
 
   ```
   ### Reset the database 
   ```
   sudo systemctl stop canined && 
-  canined tendermint unsafe-reset-all --home $HOME/$Name_config_file --keep-addr-book
+  canined tendermint unsafe-reset-all --home $HOME/.canine --keep-addr-book
   
   ```
   ## Restart node
